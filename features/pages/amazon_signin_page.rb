@@ -25,8 +25,8 @@ def click_sign_in_button()
     $browser.find_element(:id,$sign_in_button).click
 end
 
-def error_empty_email()
-    $browser.find_element(:xpath,$error_empty_email).text.expect == "Enter your email or mobile phone number"
-    # puts message
-    # expect(message).to eq(true)
-end
+# def error_empty_email()
+#     $browser.find_element(:xpath,$error_empty_email).text.equal == "Enter your email or mobile phone number"
+#     # puts message
+#     # expect(message).to eq(true)
+# end

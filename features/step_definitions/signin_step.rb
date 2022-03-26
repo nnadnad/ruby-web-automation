@@ -7,8 +7,8 @@ Then("User click sign in button") do
     screenshot("User click sign in button")
 end
 
-Then("User would see error problem related to empty email") do
-    error_empty_email()
-    sleep(2)
-    screenshot("User would see error problem related to empty email")
-end
+# Then("User would see error problem related to empty email") do
+#     error_empty_email()
+#     sleep(2)
+#     screenshot("User would see error problem related to empty email")
+# end
